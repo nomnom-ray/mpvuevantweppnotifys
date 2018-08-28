@@ -17,6 +17,7 @@ export default function Notify(options = {}) {
         // el.setData({
         //   ...options
         // });
+        
         // {...options} 运行结果其实是与 直接的options 相等的没有明白为什么 要写成  {...options}
         // 修改成
         el.setData(options);
